@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class Moeda : MonoBehaviour
 {
-    public int velocidadeDeGiro = 50;   
-    
-    
+    public int velocidadeDeGiro = 50;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     private void OnTriggerEnter(Collider other)

@@ -28,10 +28,10 @@ public class GameManager : MonoBehaviour
         ContadorDeMoedas.text = $"Moedas Restantes: {restantes}";
         if (restantes <= 0)
         {
-            parabains.text = "ParabÃ©ns";
+            parabains.text = "Parabéns";
             source.Stop();
             source.PlayOneShot(vitoria);
+         
         }
     }
-    
 }
