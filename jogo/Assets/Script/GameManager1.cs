@@ -31,7 +31,6 @@ public class GameManager : MonoBehaviour
             parabains.text = "Parabéns";
             source.Stop();
             source.PlayOneShot(vitoria);
-            Invoke("ProxFase", 5);
         }
     }
     
